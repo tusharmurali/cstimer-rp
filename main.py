@@ -6,6 +6,8 @@ client_id = '723966115537223721'  # Bot ID
 RPC = Presence(client_id)  # Initialize the client class
 RPC.connect()  # Start the handshake loop
 
+print("csTimer Rich Presence connected")
+
 tooltips = {
     "3x3x3": "3x3x3 Cube",
     "2x2x2": "2x2x2 Cube",
@@ -32,4 +34,4 @@ while True:  # The presence will stay on as long as the program is running
         RPC.update(state="ao5: " + data[10] + ", ao12: " + data[11], details="time: " + data[8] + ", mo3: " + data[9],
                    large_image=data[7].replace(" ", ""), large_text=tooltips[data[7]],
                    small_image="cstimer", small_text="csTimer")
-    time.sleep(5)
+    time.sleep(5)  # Update every 5 seconds
