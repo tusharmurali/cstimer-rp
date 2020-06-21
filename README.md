@@ -1,6 +1,6 @@
 # csTimerRP<br>![build passing](https://img.shields.io/badge/build-passing-brightgreen)
 
-Discord Integration for csTimer.
+Discord Integration for csTimer. Be sure to select the scramble that corresponds to the event that you are practicing.
 
 ###### Chrome Setup
 1. Install [this](https://chrome.google.com/webstore/detail/run-javascript/lmilalhkkdhfieeienjbiicclobibjao) Chrome extension
