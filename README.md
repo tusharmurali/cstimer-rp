@@ -1,6 +1,6 @@
 # csTimerRP
 
-Discord Integration for csTimer
+Discord Integration for csTimer.
 
 ###### Chrome Setup
 1. Install [this](https://chrome.google.com/webstore/detail/run-javascript/lmilalhkkdhfieeienjbiicclobibjao) Chrome extension
