@@ -15,5 +15,6 @@ Discord Integration for csTimer
 2. Download or clone this repository
 3. Shift + Right Click inside of the folder and open a powershell or command prompt
 4. Run `pip install -r requirements.txt` to install dependencies
+6. Ensure that you have Discord open
 5. Run `py main.py` to start the Rich Presence
 6. Presence will update every 5 seconds provided you are on the csTimer window
