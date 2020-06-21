@@ -1,10 +1,10 @@
 setInterval(function () {
     $('head title', window.parent.document).text("csTimer - Professional Rubik's Cube Speedsolving/Training Timer " +
-        $("#scrambleDiv > div.title > nobr:nth-child(1) > select:nth-child(2) > option:selected").text() + " " +
+        $("#scrambleDiv > div.title > nobr:nth-child(1) > select:nth-child(2) > option:selected").text().replace(" ", "") + " " +
         $("[data=cs]").text() + " " +
         $("[data=cm0]").text() + " " +
         $("[data=ca1]").text() + " " +
         $("[data=ca2]").text() + " " +
         $("[data=ca3]").text()
     );
-}, 2500);
+}, 5000);
