@@ -5,7 +5,7 @@ Discord Integration for csTimer
 
 ###### Chrome Setup
 1. Install [this](https://chrome.google.com/webstore/detail/run-javascript/lmilalhkkdhfieeienjbiicclobibjao) Chrome extension
-2. Visit [csTimer](https://cstimer.net/)
+2. Visit [csTimer.net](https://cstimer.net/)
 3. Click on the extension's icon, and paste the code from [update.js](update.js)
 4. Check "Enable on cstimer.net" and click Save & Run
 
