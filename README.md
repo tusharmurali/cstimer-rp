@@ -15,5 +15,5 @@ Discord Integration for csTimer.
 3. Shift + Right Click inside of the folder and open a powershell or command prompt
 4. Run `pip install -r requirements.txt` to install dependencies
 5. Ensure that you have Discord open
-6. From now on, all you need to do is open the `start.bat` file included in the folder
+6. From now on, all you need to do is open the `start.bat` file included in the folder and minimize the window
 7. Presence will update every 5 seconds provided you are on the csTimer window
