@@ -1,8 +1,6 @@
 # csTimerRP
 Discord Integration for csTimer
 
-## Setup
-
 ###### Chrome Setup
 1. Install [this](https://chrome.google.com/webstore/detail/run-javascript/lmilalhkkdhfieeienjbiicclobibjao) Chrome extension
 2. Visit [csTimer.net](https://cstimer.net/)
@@ -16,5 +14,5 @@ Discord Integration for csTimer
 3. Shift + Right Click inside of the folder and open a powershell or command prompt
 4. Run `pip install -r requirements.txt` to install dependencies
 6. Ensure that you have Discord open
-5. Run the `start.bat` included in the folder
+5. Run the `start.bat` file included in the folder
 6. Presence will update every 5 seconds provided you are on the csTimer window
