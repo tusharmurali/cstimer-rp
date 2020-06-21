@@ -7,4 +7,4 @@ setInterval(function () {
         $("[data=ca2]").text() + " " +
         $("[data=ca3]").text()
     );
-}, 5000);
+}, 2500);
