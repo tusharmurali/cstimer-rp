@@ -2,7 +2,7 @@ from pypresence import Presence
 from win32gui import GetWindowText, GetForegroundWindow
 import time
 
-client_id = '723966115537223721'  # Fake ID, put your real one here
+client_id = '723966115537223721'  # Bot ID
 RPC = Presence(client_id)  # Initialize the client class
 RPC.connect()  # Start the handshake loop
 
@@ -32,4 +32,4 @@ while True:  # The presence will stay on as long as the program is running
         RPC.update(state="ao5: " + data[10] + ", ao12: " + data[11], details="time: " + data[8] + ", mo3: " + data[9],
                    large_image=data[7].replace(" ", ""), large_text=tooltips[data[7]],
                    small_image="cstimer", small_text="csTimer")
-    time.sleep(5)  # Can only update rich presence every 15 seconds
+    time.sleep(5)
