@@ -1,5 +1,5 @@
 # csTimerRP
-Discord Integration for csTimer.
+Discord Integration for csTimer
 
 ## Setup
 
@@ -7,7 +7,7 @@ Discord Integration for csTimer.
 1. Install [this](https://chrome.google.com/webstore/detail/run-javascript/lmilalhkkdhfieeienjbiicclobibjao) Chrome extension
 2. Visit [csTimer](https://cstimer.net/)
 3. Click on the extension's icon, and paste the code from [update.js](update.js)
-4. Click Save & Run
+4. Check "Enable on cstimer.net" and click Save & Run
 
 ###### Python Setup
 1. Make sure you have [Python](https://www.python.org/downloads/) installed and added to PATH
