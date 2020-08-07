@@ -10,7 +10,7 @@ Discord Integration for csTimer. Be sure to select the scramble that corresponds
 5. Click off of the window and refresh csTimer
 
 ###### Python Setup
-1. Install [Python](https://www.python.org/downloads/) and check "Add to PATH" during setup
+1. If not done so already, install [Python](https://www.python.org/downloads/) and check "Add to PATH" during setup
 2. Download or clone this repository
 3. Shift + Right Click inside of the folder and open a powershell or command prompt
 4. Run `pip install -r requirements.txt` to install dependencies
