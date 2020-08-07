@@ -29,7 +29,7 @@ tooltips = {
 
 
 def get(index):
-    return data[index] if index < len(data) - 3 else "N/A"
+    return data[index] if index < len(data) - 3 else "n/a"
 
 
 while True:  # The presence will stay on as long as the program is running
