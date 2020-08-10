@@ -34,7 +34,7 @@ def get(index):
 
 while True:  # The presence will stay on as long as the program is running
     data = GetWindowText(GetForegroundWindow()).split()
-    if data[0] == "csTimer":
+    if get(0) == "csTimer":
         RPC.update(state="ao5: " + get(10) + ", ao12: " + get(11), details="time: " + get(8) + ", mo3: " + get(9),
                    large_image=get(7).replace(" ", ""), large_text=tooltips[get(7)],
                    small_image="cstimer", small_text="csTimer")
