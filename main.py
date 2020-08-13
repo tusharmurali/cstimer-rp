@@ -1,31 +1,15 @@
 from pypresence import Presence
 from win32gui import GetWindowText, GetForegroundWindow
 import time
+import json
 
 client_id = '723966115537223721'  # Bot ID
 RPC = Presence(client_id)  # Initialize the client class
 RPC.connect()  # Start the handshake loop
 print("csTimer Rich Presence connected")
 
-tooltips = {
-    "3x3x3": "3x3x3 Cube",
-    "2x2x2": "2x2x2 Cube",
-    "4x4x4": "4x4x4 Cube",
-    "5x5x5": "5x5x5 Cube",
-    "6x6x6": "6x6x6 Cube",
-    "7x7x7": "7x7x7 Cube",
-    "3x3bld": "3x3x3 Blindfolded",
-    "3x3fm": "3x3x3 Fewest Moves",
-    "3x3oh": "3x3x3 One Handed",
-    "clock": "Clock",
-    "megaminx": "Megaminx",
-    "pyraminx": "Pyraminx",
-    "skewb": "Skewb",
-    "sq1": "Square-1",
-    "4x4bld": "4x4x4 Blindfolded",
-    "5x5bld": "5x5x5 Blindfolded",
-    "3x3mbld": "3x3x3 Multi-Blind"
-}
+with open('tooltips.json') as f:
+    tooltips = json.load(f)
 
 
 def get(index):
