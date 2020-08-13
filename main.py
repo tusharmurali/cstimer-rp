@@ -9,7 +9,7 @@ RPC.connect()  # Start the handshake loop
 print("csTimer Rich Presence connected")
 
 with open('tooltips.json') as f:
-    tooltips = json.load(f)
+    tooltips = json.load(f)  # import tooltips from file
 
 
 def get(index):
