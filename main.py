@@ -1,11 +1,15 @@
+import json
+import pypresence
+import time
 from pypresence import Presence
 from win32gui import GetWindowText, GetForegroundWindow
-import time
-import json
 
 client_id = '723966115537223721'  # Bot ID
 RPC = Presence(client_id)  # Initialize the client class
-RPC.connect()  # Start the handshake loop
+try:
+    RPC.connect()  # Start the handshake loop
+except pypresence.exceptions.InvalidPipe:
+    print("Please ensure that Discord is running before launching the rich presence")
 print("csTimer Rich Presence connected")
 
 with open('tooltips.json') as f:
