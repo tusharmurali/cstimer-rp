@@ -1,4 +1,4 @@
-setInterval(function () {
+setInterval(() => {
     $('head title', window.parent.document).text("csTimer - Professional Rubik's Cube Speedsolving/Training Timer " +
         $("#scrambleDiv > div.title > nobr:nth-child(1) > select:nth-child(2) > option:selected").text().replace(" ", "") + " " +
         $("[data=cs]").text() + " " +
