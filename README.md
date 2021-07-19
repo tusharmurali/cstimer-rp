@@ -1,6 +1,8 @@
 # cstimer-rp<br>![build passing](https://img.shields.io/badge/build-passing-brightgreen)
 
-Discord Integration for csTimer. Be sure to select the scramble that corresponds to the event that you are practicing. Make sure that you have "Display currently running game as status message" enabled in User Settings > Game Activity.
+Discord Integration for csTimer. Be sure to select the scramble type on csTimer that corresponds to the event that you are practicing. Also be sure that you have "Display currently running game as status message" enabled in User Settings > Game Activity on Discord.
+
+You must do both the Chrome Setup and the Python Setup. 
 
 ###### Chrome Setup
 1. Install [this](https://chrome.google.com/webstore/detail/run-javascript/lmilalhkkdhfieeienjbiicclobibjao) Chrome extension
